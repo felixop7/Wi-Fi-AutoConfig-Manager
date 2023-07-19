@@ -4,24 +4,24 @@ Wi-Fi AutoConfig Manager is a script designed to simplify the process of configu
 
 This script is particularly useful in scenarios where you frequently switch between different Wi-Fi networks, such as home, office, or public hotspots. It saves you time by automatically adjusting the network settings based on the network you are connecting to.
 
-I use this script specifically when switching between the KU Boys Hostel (KUBH) and the KU Central Library (KUCL). KUBH requires its own IPv4 address and DNS, while KUCL also has its own IPv4 address and DNS settings.
+I use this script specifically when switching between the KU Boys Hostel (KUBH) and the KU Central Library (KUCL). KUBH requires its own IPv4 address and DNS, while KUCL Wi-Fi doesn't works on KUBH's IPv4 address and DNS settings.
 
 # To set the Wi-Fi network configuration:
 
-Open the "Wi-Fi AutoConfig - RESET.bat" script in a text editor.
+Open the "Wi-Fi AutoConfig - SET.bat" script in a text editor.
 Look for the sections in the code where IPv4 address and DNS server settings are specified.
 Replace the "XXX" placeholders with the desired IPv4 address and DNS server addresses for the respective network.
 Save the changes to the script.
 To apply the new settings:
 
-Right-click on the "Wi-Fi AutoConfig - RESET.bat" script.
+Right-click on the "Wi-Fi AutoConfig - SET.bat" script.
 Select "Run as administrator" to execute the script with the necessary permissions.
 The script will automatically configures the IPv4 address and DNS settings based on the edited code.
 The Wi-Fi network configuration will be updated according to the specified settings.
 
 # To reset the Wi-Fi network configuration:
 
-Right-click on the "Wi-Fi AutoConfig - SET.bat" script.
+Right-click on the "Wi-Fi AutoConfig - RESET.bat" script.
 Select "Run as administrator" to execute the script with the necessary permissions.
 The script will reset the IPv4 address and DNS settings to their default values (i.e Obtain IPv4 and DNS automatically ).
 
